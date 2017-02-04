@@ -1,0 +1,4 @@
+1 resistencia 1k
+1 diodo T4001
+1 trans nt2222a
+1 relevador de 1 polo y 2 tiros (5 patas)

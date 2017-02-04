@@ -1,0 +1,3 @@
+Un pushbutton 
+Un LED
+Una resistencia de 330 Ohms y otra de 10k Ohms

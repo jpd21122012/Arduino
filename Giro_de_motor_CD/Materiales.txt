@@ -1,0 +1,2 @@
+8 1n4001
+potenciometro 20 k

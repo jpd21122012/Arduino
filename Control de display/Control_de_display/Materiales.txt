@@ -1,0 +1,4 @@
+Dos resistencias de 10k
+Dos pushbuttons 
+7 resistencias de 330 Ohms
+Un display de 7 segmentos

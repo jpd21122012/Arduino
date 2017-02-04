@@ -1,0 +1,3 @@
+Un potenciómetro de 10k
+Un LED
+Una resistencia de 330 Ohms

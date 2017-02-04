@@ -1,0 +1,2 @@
+Una resistencia de 10k
+Un pushbutton

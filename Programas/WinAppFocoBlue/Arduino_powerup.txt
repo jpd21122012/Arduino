@@ -1,0 +1,27 @@
+#include <SoftwareSerial.h>
+SoftwareSerial BTSerial(10, 11); // RX | TX
+void setup()
+{
+  pinMode(13,OUTPUT); //Led is connected here
+  BTSerial.begin(9600); //Begin the serial communication using bluetooth
+  Serial.begin(9600);
+}
+void loop()
+{
+  char c;
+  if(BTSerial.available())
+  {
+    c=BTSerial.read();
+    if(c=='1')
+    {
+      Serial.print("On");
+      //digitalWrite(13,HIGH); //Set pin 13 to high
+    }
+    else if(c=='0')
+    {
+      Serial.print("Off");
+      //digitalWrite(13,LOW); //Set pin 13 to low  
+    }
+   }
+}
+

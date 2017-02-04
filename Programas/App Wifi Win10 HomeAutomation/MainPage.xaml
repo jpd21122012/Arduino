@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="App4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ToggleSwitch x:Name="lightBulb" Header="Light Bulb" HorizontalAlignment="Left" Margin="61,134,0,0" VerticalAlignment="Top" Toggled="lightBulb_Toggled"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="61,36,0,0" TextWrapping="Wrap" Text="Home Automation" VerticalAlignment="Top" SelectionChanged="textBlock_SelectionChanged" FontSize="32"/>
+        <ToggleSwitch x:Name="waterHeater" Header="Water Heater" HorizontalAlignment="Left" Margin="61,199,0,0" VerticalAlignment="Top" Toggled="waterHeater_Toggled"/>
+        <ToggleSwitch x:Name="fan" Header="Fan" HorizontalAlignment="Left" Margin="61,264,0,0" VerticalAlignment="Top" Toggled="fan_Toggled"/>
+        <ToggleSwitch x:Name="tv" Header="TV" HorizontalAlignment="Left" Margin="61,329,0,0" VerticalAlignment="Top" Toggled="tv_Toggled"/>
+        <ToggleSwitch x:Name="ac" Header="AC" HorizontalAlignment="Left" Margin="61,394,0,0" VerticalAlignment="Top" Toggled="ac_Toggled"/>
+        <ToggleSwitch x:Name="dishWasher" Header="Dish Washer" HorizontalAlignment="Left" Margin="61,459,0,0" VerticalAlignment="Top" Toggled="dishWasher_Toggled"/>
+
+    </Grid>
+</Page>

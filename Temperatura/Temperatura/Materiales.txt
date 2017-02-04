@@ -1,0 +1,3 @@
+Un sensor LM35
+Un LED RGB
+Tres resistencias de 330 Ohms

@@ -1,0 +1,3 @@
+Tres potenciómetros de 10k
+Un LED RGB
+Tres resistencias de 330 Ohms
